@@ -94,7 +94,8 @@ main {
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 850px;
   padding: 0 25px;
-  margin: 200px auto;
+  margin: 0 auto;
+  margin-top: 200px;
   color: #424242;
 }
 h1 {
@@ -115,6 +116,19 @@ p {
   hyphens: auto;
 }
 
+a {
+  color: rgb(140, 47, 48);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+}
+
 @media screen and (max-width: 1000px) {
   main {
     padding: 0 10%;
@@ -123,7 +137,7 @@ p {
 
 @media screen and (max-width: 600px) {
   main {
-    margin: 100px auto;
+    margin-top: 100px;
     padding: 0 7%;
   }
 }
